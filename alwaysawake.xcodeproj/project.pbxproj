@@ -15,6 +15,7 @@
 		1C010A643BB20068D37248AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C010F9EFF8FC6BE59CAA321 /* AppDelegate.swift */; };
 		1C010AB003C246B193D7BE38 /* alwaysawakeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0100D96B0520FA4FA6D4DE /* alwaysawakeTests.swift */; };
 		1C010B98947CD83C20322A6E /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1C0106C3116480F5C283EDB1 /* Info.plist */; };
+		1C010C5496952B702B4B43C2 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C010F4454E2F50D5E61F01B /* LoginViewController.swift */; };
 		1C010DB18FF16EC3C3E116EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C0107A4F9AF600DE77F0581 /* LaunchScreen.storyboard */; };
 		1C010DC075D2F8620BEDC004 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1C010BA11BF164726C07A874 /* Info.plist */; };
 		1C010F5F468339B79879965B /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0107007CFCBB036128D1E0 /* FirstViewController.swift */; };
@@ -51,6 +52,7 @@
 		1C01084DF2B7F02541B3DF38 /* alwaysawakeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = alwaysawakeUITests.swift; sourceTree = "<group>"; };
 		1C010B8F0574D466FB56C84C /* alwaysawake.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = alwaysawake.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C010BA11BF164726C07A874 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		1C010F4454E2F50D5E61F01B /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		1C010F9EFF8FC6BE59CAA321 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -127,6 +129,7 @@
 				1C01069B6A4C7F14AF969FC7 /* Main.storyboard */,
 				1C0107007CFCBB036128D1E0 /* FirstViewController.swift */,
 				1C010842B6563B022D7E9053 /* SecondViewController.swift */,
+				1C010F4454E2F50D5E61F01B /* LoginViewController.swift */,
 			);
 			path = alwaysawake;
 			sourceTree = "<group>";
@@ -193,6 +196,7 @@
 		1C010E566ABE1A82B39DAE80 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0720;
 				ORGANIZATIONNAME = "Approaching Pi";
 			};
 			buildConfigurationList = 1C010010E0142A99CB53B8E1 /* Build configuration list for PBXProject "alwaysawake" */;
@@ -252,6 +256,7 @@
 				1C010A643BB20068D37248AC /* AppDelegate.swift in Sources */,
 				1C010F5F468339B79879965B /* FirstViewController.swift in Sources */,
 				1C010105B788AEF679F3DAA9 /* SecondViewController.swift in Sources */,
+				1C010C5496952B702B4B43C2 /* LoginViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -478,6 +483,7 @@
 				1C010716674307B391C58570 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1C0105EEDA42817E6C052FB7 /* Build configuration list for PBXNativeTarget "alwaysawake" */ = {
 			isa = XCConfigurationList;
@@ -486,6 +492,7 @@
 				1C0103CBFC6703FCA527BBD1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1C010A8F0404D394311BF2C9 /* Build configuration list for PBXNativeTarget "alwaysawakeTests" */ = {
 			isa = XCConfigurationList;
@@ -494,6 +501,7 @@
 				1C0101A625CF00C99C313C9C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
