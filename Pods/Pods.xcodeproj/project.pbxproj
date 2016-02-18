@@ -1,0 +1,1091 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0AF1CDBBD7BE02BEDC3F8C369B358938 /* KeychainService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1457B03917341658EAA876EC83B757 /* KeychainService.swift */; };
+		0C70718094E86CA9CA9349CF9BCF7692 /* Pods-alwaysawakeTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B6D390A302F846BFE6722E0B3E18FEBC /* Pods-alwaysawakeTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		11A60DCB08AB784B3FA8E76A9DC97E55 /* Pods-alwaysawakeUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B578CC8118E911AD224EABCBB6FD65 /* Pods-alwaysawakeUITests-dummy.m */; };
+		1EEBCD08D342FA6EA12C41498D2E138F /* OAuth2CodeGrantLinkedIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1E8AED8FB5BF12F4F0EFB32D59037C /* OAuth2CodeGrantLinkedIn.swift */; };
+		1FF9F0DB799EDABE760A6B556367FD13 /* ArchiveKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB29D71FC61721C510C0E01733DDEB2A /* ArchiveKey.swift */; };
+		2FCC2186AC476A53DCB220B949EF7246 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 557A4ED1655421D1F756E817EA4B4C44 /* Foundation.framework */; };
+		317385E63E348034CCF1D3E80EADB781 /* Pods-alwaysawakeUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E06467624C3EAE129B3C787E4A4999C7 /* Pods-alwaysawakeUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		31DE090E0343616CCBEE3EDDA0A126FF /* OAuth2DynReg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D07E1671401A9A197B8DADF636D5400 /* OAuth2DynReg.swift */; };
+		39BC634F0BC0FA834AB10B5775FEC82B /* OAuth2PasswordGrant.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE6EC900349DB785543341E0979E0D0 /* OAuth2PasswordGrant.swift */; };
+		3C0E7EB2E18DF7817949DFF78DBCE63B /* GenericKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 540D40BE2A8B320FE655D9AEA989E800 /* GenericKey.swift */; };
+		3FB071D19915DC211C9EA5D53DFFAB4E /* SwiftKeychain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52BA8A207A7FD69E61B9A2CCEA7430FD /* SwiftKeychain.framework */; };
+		46E70DC0E74FCF9DB3FA583979AF8345 /* OAuth2AuthConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1B4900E92E055706EB678B5C770315 /* OAuth2AuthConfig.swift */; };
+		4BC92547F7E1DCFC56CA6B85E59BFD87 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 557A4ED1655421D1F756E817EA4B4C44 /* Foundation.framework */; };
+		4DF8CBEE84DC7A609D674409F34AFB7E /* OAuth2CodeGrant.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCBD719AEBDB199672EF03A228EB4BAD /* OAuth2CodeGrant.swift */; };
+		4EDC6DAAB18E3C9B49CF83B3E079BA6E /* OAuth2ImplicitGrant.swift in Sources */ = {isa = PBXBuildFile; fileRef = C64CD44799A818EDA1D655F81DFFC6FC /* OAuth2ImplicitGrant.swift */; };
+		57CF58B87BFB99EA24BC963856AF6514 /* OAuth2ClientCredentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0700B8C69D6B798A67C2715F6822D96B /* OAuth2ClientCredentials.swift */; };
+		62A0C0DB51D3B525711646CD39742F45 /* OAuth2Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F4AF185BB877C2344F60EF839E2915 /* OAuth2Base.swift */; };
+		666B12C184D4F87B77A8B191293208EE /* OAuth2Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92216E23A80E203CBAA8D7C52699179 /* OAuth2Error.swift */; };
+		69E482FDA4FA47FC2752090813A78299 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 557A4ED1655421D1F756E817EA4B4C44 /* Foundation.framework */; };
+		6C3D6A747FF882D32BDC9D415273CAEB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 557A4ED1655421D1F756E817EA4B4C44 /* Foundation.framework */; };
+		706CFD1DF87DF3F39E4F86CDF2DDA57E /* KeychainQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A64F3CB538E68CF1DFF5FC0FF4EEE3 /* KeychainQuery.swift */; };
+		70867CD24047B4C7ED8A76BA6658D5CB /* Keychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48EFF752A61463881866FDB8A54D5054 /* Keychain.swift */; };
+		772F60EDDFB4EB5DFC24EB909EB720F0 /* OAuth2ClientConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C37F23839EEE341C2CC2BCFCB7E56DC /* OAuth2ClientConfig.swift */; };
+		825A45D3C1A0262BCBD433A96AF911B4 /* OAuth2Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D18560A91D346F1FAEE73E7EE2C870A /* OAuth2Request.swift */; };
+		843D031E36D9E610115CD174CFC52FCC /* p2.OAuth2-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DA199391CDFA564DC3CCE494E0A2EA69 /* p2.OAuth2-dummy.m */; };
+		9499F80AD27E872761C14EEA954AF7D1 /* OAuth2CodeGrantFacebook.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5DA2808A37643C02854984AEB79E11C /* OAuth2CodeGrantFacebook.swift */; };
+		9B570508404D190889CC881D00A3FF04 /* extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E5550AB13068502286442DCA8EE87E /* extensions.swift */; };
+		9D0179D233874E134750E457DE76F13C /* OAuth2+iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10015D490E5BFB2C88A8DA02357AB9D1 /* OAuth2+iOS.swift */; };
+		A48232043B4D3EF5CD6359138B4CA49F /* p2.OAuth2-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 29A34CE7EA61CF374FB1B1974991EF07 /* p2.OAuth2-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC8B2006588DA65828701B534CA128F3 /* OAuth2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50ADD234973815658517D8F9C7589B9 /* OAuth2.swift */; };
+		B4128997C02846D7D1CBCCB41ABA9FB8 /* Pods-alwaysawake-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D8C888562762338F586752A106DB9B53 /* Pods-alwaysawake-dummy.m */; };
+		B803CDA99ADCD14BAC6477716653565A /* OAuth2CodeGrantNoTokenType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6FC6AF5E6A88472E6CA33752BA6F31B /* OAuth2CodeGrantNoTokenType.swift */; };
+		C00FD9708C50979FCB374536649F8CB0 /* SwiftKeychain-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B51E88BE09512DD185906C9176A93223 /* SwiftKeychain-dummy.m */; };
+		C7D2EB9FCEE143E9FEFD4B6FA768EF5C /* OAuth2CodeGrantBasicAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B5ACA63B5B461ECB2A03B50420A897 /* OAuth2CodeGrantBasicAuth.swift */; };
+		D1D0E073E41237E271625A8840918236 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CDAC7345CAE9F6EA1FBDDBCD9260FF4 /* Security.framework */; };
+		D936C4D1131A935BFB28B6DFD877AF8B /* Pods-alwaysawakeTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ED0AE8A35EF9CE22C78DEBF8EB46B406 /* Pods-alwaysawakeTests-dummy.m */; };
+		DC492F6C1D09819F5CCF95D2ACAE86E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 557A4ED1655421D1F756E817EA4B4C44 /* Foundation.framework */; };
+		E67399A59BCA2D5B1F5365D59937E2C7 /* OAuth2WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2CF3600923EFE15E7CDA1A90BA8285 /* OAuth2WebViewController.swift */; };
+		E73E3E26CEFF67A22DD173DB45CA2F08 /* SwiftKeychain-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C789F66B6F2EAE24FC398406D791C95 /* SwiftKeychain-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E866396E66A2D3A8982331911613C8F2 /* Pods-alwaysawake-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 75893C57555FA523866151C493E53FA1 /* Pods-alwaysawake-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F764C823E11E7D49997F141B3F4B83CA /* KeychainItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B60944300A4B2BC8BC2AD61D8A6F2CBA /* KeychainItem.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		003C08D0B2244169A0BAD1D67DCC5277 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05167AC5F939CE0DB359C550C6F0B194;
+			remoteInfo = p2.OAuth2;
+		};
+		6D8D5BC501483E307EF31331ABB0F664 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B51E12F2346F2C9809F856F29F7C38CA;
+			remoteInfo = SwiftKeychain;
+		};
+		F21A6D1B72D9D6891F206A6F7C28036B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B51E12F2346F2C9809F856F29F7C38CA;
+			remoteInfo = SwiftKeychain;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0700B8C69D6B798A67C2715F6822D96B /* OAuth2ClientCredentials.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OAuth2ClientCredentials.swift; path = Sources/Base/OAuth2ClientCredentials.swift; sourceTree = "<group>"; };
+		07580E7ED981AE7803C3E0471A065949 /* SwiftKeychain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftKeychain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C37F23839EEE341C2CC2BCFCB7E56DC /* OAuth2ClientConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OAuth2ClientConfig.swift; path = Sources/Base/OAuth2ClientConfig.swift; sourceTree = "<group>"; };
+		10015D490E5BFB2C88A8DA02357AB9D1 /* OAuth2+iOS.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "OAuth2+iOS.swift"; path = "Sources/iOS/OAuth2+iOS.swift"; sourceTree = "<group>"; };
+		18B578CC8118E911AD224EABCBB6FD65 /* Pods-alwaysawakeUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-alwaysawakeUITests-dummy.m"; sourceTree = "<group>"; };
+		1F069CACC6CB9CD13C07239825980BCB /* Pods-alwaysawakeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-alwaysawakeTests.release.xcconfig"; sourceTree = "<group>"; };
+		238F6F857E07F08D4E6D768862B355B8 /* Pods-alwaysawake-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-alwaysawake-acknowledgements.markdown"; sourceTree = "<group>"; };
+		29A34CE7EA61CF374FB1B1974991EF07 /* p2.OAuth2-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "p2.OAuth2-umbrella.h"; sourceTree = "<group>"; };
+		2F1457B03917341658EAA876EC83B757 /* KeychainService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeychainService.swift; path = SwiftKeychain/Keychain/KeychainService.swift; sourceTree = "<group>"; };
+		357BA8A842C2577FCD8421CCFE0565C5 /* Pods-alwaysawake.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-alwaysawake.modulemap"; sourceTree = "<group>"; };
+		3D18560A91D346F1FAEE73E7EE2C870A /* OAuth2Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OAuth2Request.swift; path = Sources/Base/OAuth2Request.swift; sourceTree = "<group>"; };
+		3DE1B61A800E89B2704843A561B94460 /* Pods_alwaysawake.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_alwaysawake.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		42AD88E2DD90A7B79DF25EC9CF60C9F3 /* Pods-alwaysawakeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-alwaysawakeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		47E32583881A088ACA4A83C617ABE98B /* Pods-alwaysawake.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-alwaysawake.release.xcconfig"; sourceTree = "<group>"; };
+		48EFF752A61463881866FDB8A54D5054 /* Keychain.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Keychain.swift; path = SwiftKeychain/Keychain/Keychain.swift; sourceTree = "<group>"; };
+		4D07E1671401A9A197B8DADF636D5400 /* OAuth2DynReg.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OAuth2DynReg.swift; path = Sources/Base/OAuth2DynReg.swift; sourceTree = "<group>"; };
+		52BA8A207A7FD69E61B9A2CCEA7430FD /* SwiftKeychain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftKeychain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		540D40BE2A8B320FE655D9AEA989E800 /* GenericKey.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GenericKey.swift; path = SwiftKeychain/Keychain/GenericKey.swift; sourceTree = "<group>"; };
+		557A4ED1655421D1F756E817EA4B4C44 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5CDAC7345CAE9F6EA1FBDDBCD9260FF4 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.2.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		62F0654B09EEBEA5086AF9362A63AC58 /* Pods-alwaysawakeUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-alwaysawakeUITests-frameworks.sh"; sourceTree = "<group>"; };
+		63E5550AB13068502286442DCA8EE87E /* extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = extensions.swift; path = Sources/Base/extensions.swift; sourceTree = "<group>"; };
+		6930B73B218A1AA6D233FAC3B29559C1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D94A91DEE7CEEBC975A8F8D0D75C310 /* p2.OAuth2.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = p2.OAuth2.modulemap; sourceTree = "<group>"; };
+		7064328149E75A5D73E01B0ED2957B25 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75893C57555FA523866151C493E53FA1 /* Pods-alwaysawake-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-alwaysawake-umbrella.h"; sourceTree = "<group>"; };
+		773724CB94A0068940FA50A25A086C7D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E9C1350504A483EDE31E9E8C5B8C574 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80F0CC2116D8DFC5243A3D8A2483DBCB /* Pods-alwaysawakeTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-alwaysawakeTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		8C789F66B6F2EAE24FC398406D791C95 /* SwiftKeychain-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftKeychain-umbrella.h"; sourceTree = "<group>"; };
+		8E983310CEE6BFA43547533846BDB495 /* Pods-alwaysawakeUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-alwaysawakeUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9718B1ED37D21E2E03095DA6A55B5C0C /* Pods-alwaysawake-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-alwaysawake-acknowledgements.plist"; sourceTree = "<group>"; };
+		98BC0A5393511072FD0DA973443FA55A /* SwiftKeychain.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftKeychain.xcconfig; sourceTree = "<group>"; };
+		9B0B2DD5A6A083DC8EC9FCA47DCF1018 /* SwiftKeychain.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SwiftKeychain.modulemap; sourceTree = "<group>"; };
+		9DAC0F22F9FF33CEFC282AFA8A0DBFF5 /* p2.OAuth2-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "p2.OAuth2-prefix.pch"; sourceTree = "<group>"; };
+		9DC2BA71A2DEB09F867475CE4D114CAD /* Pods-alwaysawakeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-alwaysawakeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9EE75BBF893C778246907B43DDEC2AA5 /* SwiftKeychain-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftKeychain-prefix.pch"; sourceTree = "<group>"; };
+		A000D9434F18E29875FA5990153ABC42 /* Pods-alwaysawake.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-alwaysawake.debug.xcconfig"; sourceTree = "<group>"; };
+		A0078055747386E7CF2F043422F39D95 /* Pods-alwaysawake-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-alwaysawake-frameworks.sh"; sourceTree = "<group>"; };
+		A4BBFBEE80FFE73E014270B83153063B /* Pods_alwaysawakeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_alwaysawakeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8F4AF185BB877C2344F60EF839E2915 /* OAuth2Base.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OAuth2Base.swift; path = Sources/Base/OAuth2Base.swift; sourceTree = "<group>"; };
+		AA459042A8FCD954D8E9C205CE8BAE7D /* Pods-alwaysawakeUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-alwaysawakeUITests.modulemap"; sourceTree = "<group>"; };
+		AB29D71FC61721C510C0E01733DDEB2A /* ArchiveKey.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ArchiveKey.swift; path = SwiftKeychain/Keychain/ArchiveKey.swift; sourceTree = "<group>"; };
+		AD103B08DB7CFB1906136C9404FDAD87 /* Pods_alwaysawakeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_alwaysawakeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B51E88BE09512DD185906C9176A93223 /* SwiftKeychain-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftKeychain-dummy.m"; sourceTree = "<group>"; };
+		B5B5ACA63B5B461ECB2A03B50420A897 /* OAuth2CodeGrantBasicAuth.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OAuth2CodeGrantBasicAuth.swift; path = Sources/Base/OAuth2CodeGrantBasicAuth.swift; sourceTree = "<group>"; };
+		B60944300A4B2BC8BC2AD61D8A6F2CBA /* KeychainItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeychainItem.swift; path = SwiftKeychain/Keychain/KeychainItem.swift; sourceTree = "<group>"; };
+		B6D390A302F846BFE6722E0B3E18FEBC /* Pods-alwaysawakeTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-alwaysawakeTests-umbrella.h"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BCBD719AEBDB199672EF03A228EB4BAD /* OAuth2CodeGrant.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OAuth2CodeGrant.swift; path = Sources/Base/OAuth2CodeGrant.swift; sourceTree = "<group>"; };
+		C50ADD234973815658517D8F9C7589B9 /* OAuth2.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OAuth2.swift; path = Sources/Base/OAuth2.swift; sourceTree = "<group>"; };
+		C61D42E7454CD1416502C277C87856BE /* p2.OAuth2.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = p2.OAuth2.xcconfig; sourceTree = "<group>"; };
+		C64CD44799A818EDA1D655F81DFFC6FC /* OAuth2ImplicitGrant.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OAuth2ImplicitGrant.swift; path = Sources/Base/OAuth2ImplicitGrant.swift; sourceTree = "<group>"; };
+		CC1B4900E92E055706EB678B5C770315 /* OAuth2AuthConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OAuth2AuthConfig.swift; path = Sources/Base/OAuth2AuthConfig.swift; sourceTree = "<group>"; };
+		D4B374D5D265A93F023C29494467D0D1 /* Pods-alwaysawakeUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-alwaysawakeUITests-resources.sh"; sourceTree = "<group>"; };
+		D5A94C10B6FCF4B63A2A4743AFF4C55E /* p2_OAuth2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = p2_OAuth2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5DA2808A37643C02854984AEB79E11C /* OAuth2CodeGrantFacebook.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OAuth2CodeGrantFacebook.swift; path = Sources/Base/OAuth2CodeGrantFacebook.swift; sourceTree = "<group>"; };
+		D6FC6AF5E6A88472E6CA33752BA6F31B /* OAuth2CodeGrantNoTokenType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OAuth2CodeGrantNoTokenType.swift; path = Sources/Base/OAuth2CodeGrantNoTokenType.swift; sourceTree = "<group>"; };
+		D8C888562762338F586752A106DB9B53 /* Pods-alwaysawake-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-alwaysawake-dummy.m"; sourceTree = "<group>"; };
+		D9CFC915C04ED343292F677F7FD84E0A /* Pods-alwaysawakeTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-alwaysawakeTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DA199391CDFA564DC3CCE494E0A2EA69 /* p2.OAuth2-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "p2.OAuth2-dummy.m"; sourceTree = "<group>"; };
+		DB2CF3600923EFE15E7CDA1A90BA8285 /* OAuth2WebViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OAuth2WebViewController.swift; path = Sources/iOS/OAuth2WebViewController.swift; sourceTree = "<group>"; };
+		DDE6EC900349DB785543341E0979E0D0 /* OAuth2PasswordGrant.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OAuth2PasswordGrant.swift; path = Sources/Base/OAuth2PasswordGrant.swift; sourceTree = "<group>"; };
+		E06467624C3EAE129B3C787E4A4999C7 /* Pods-alwaysawakeUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-alwaysawakeUITests-umbrella.h"; sourceTree = "<group>"; };
+		E1AC2683FA18743C27FF6B5968A8B9EE /* Pods-alwaysawakeTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-alwaysawakeTests-frameworks.sh"; sourceTree = "<group>"; };
+		E4A93F2654DBB3CB8695F94E0AB323F6 /* Pods-alwaysawakeTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-alwaysawakeTests.modulemap"; sourceTree = "<group>"; };
+		E92216E23A80E203CBAA8D7C52699179 /* OAuth2Error.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OAuth2Error.swift; path = Sources/Base/OAuth2Error.swift; sourceTree = "<group>"; };
+		ED0AE8A35EF9CE22C78DEBF8EB46B406 /* Pods-alwaysawakeTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-alwaysawakeTests-dummy.m"; sourceTree = "<group>"; };
+		ED202367EF4E91CAFEAFD68993CFBBD8 /* Pods-alwaysawakeTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-alwaysawakeTests-resources.sh"; sourceTree = "<group>"; };
+		ED93C5AF8B035EBFDFBD845E0CD57AEA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF1E8AED8FB5BF12F4F0EFB32D59037C /* OAuth2CodeGrantLinkedIn.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OAuth2CodeGrantLinkedIn.swift; path = Sources/Base/OAuth2CodeGrantLinkedIn.swift; sourceTree = "<group>"; };
+		F9A64F3CB538E68CF1DFF5FC0FF4EEE3 /* KeychainQuery.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeychainQuery.swift; path = SwiftKeychain/Keychain/KeychainQuery.swift; sourceTree = "<group>"; };
+		FA133A23E26E2640AC01EDEF6CEDA35A /* Pods-alwaysawake-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-alwaysawake-resources.sh"; sourceTree = "<group>"; };
+		FA7B311D8BD3ED505E002AC557FFE8FB /* Pods-alwaysawakeUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-alwaysawakeUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		FDE1344549D343B795573F015E316F79 /* Pods-alwaysawakeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-alwaysawakeUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B406B59C9EFCA697EF99EB297C10723 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C3D6A747FF882D32BDC9D415273CAEB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5348CD77717AA7AF21C0154F307F562B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BC92547F7E1DCFC56CA6B85E59BFD87 /* Foundation.framework in Frameworks */,
+				D1D0E073E41237E271625A8840918236 /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92AB5DE5F4030B45F5A8D2481AF85EC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC492F6C1D09819F5CCF95D2ACAE86E5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0E0D5F7B8515CF48F11B925CCD5E19A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69E482FDA4FA47FC2752090813A78299 /* Foundation.framework in Frameworks */,
+				3FB071D19915DC211C9EA5D53DFFAB4E /* SwiftKeychain.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD708EB7DA24B91DC478CDD2AF4AEB4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FCC2186AC476A53DCB220B949EF7246 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0117516978ED085F2C455BD9B065B462 /* Pods-alwaysawake */ = {
+			isa = PBXGroup;
+			children = (
+				6930B73B218A1AA6D233FAC3B29559C1 /* Info.plist */,
+				357BA8A842C2577FCD8421CCFE0565C5 /* Pods-alwaysawake.modulemap */,
+				238F6F857E07F08D4E6D768862B355B8 /* Pods-alwaysawake-acknowledgements.markdown */,
+				9718B1ED37D21E2E03095DA6A55B5C0C /* Pods-alwaysawake-acknowledgements.plist */,
+				D8C888562762338F586752A106DB9B53 /* Pods-alwaysawake-dummy.m */,
+				A0078055747386E7CF2F043422F39D95 /* Pods-alwaysawake-frameworks.sh */,
+				FA133A23E26E2640AC01EDEF6CEDA35A /* Pods-alwaysawake-resources.sh */,
+				75893C57555FA523866151C493E53FA1 /* Pods-alwaysawake-umbrella.h */,
+				A000D9434F18E29875FA5990153ABC42 /* Pods-alwaysawake.debug.xcconfig */,
+				47E32583881A088ACA4A83C617ABE98B /* Pods-alwaysawake.release.xcconfig */,
+			);
+			name = "Pods-alwaysawake";
+			path = "Target Support Files/Pods-alwaysawake";
+			sourceTree = "<group>";
+		};
+		545BB1DD47214E57E7832569C9DC6949 /* Pods-alwaysawakeTests */ = {
+			isa = PBXGroup;
+			children = (
+				7064328149E75A5D73E01B0ED2957B25 /* Info.plist */,
+				E4A93F2654DBB3CB8695F94E0AB323F6 /* Pods-alwaysawakeTests.modulemap */,
+				D9CFC915C04ED343292F677F7FD84E0A /* Pods-alwaysawakeTests-acknowledgements.markdown */,
+				80F0CC2116D8DFC5243A3D8A2483DBCB /* Pods-alwaysawakeTests-acknowledgements.plist */,
+				ED0AE8A35EF9CE22C78DEBF8EB46B406 /* Pods-alwaysawakeTests-dummy.m */,
+				E1AC2683FA18743C27FF6B5968A8B9EE /* Pods-alwaysawakeTests-frameworks.sh */,
+				ED202367EF4E91CAFEAFD68993CFBBD8 /* Pods-alwaysawakeTests-resources.sh */,
+				B6D390A302F846BFE6722E0B3E18FEBC /* Pods-alwaysawakeTests-umbrella.h */,
+				42AD88E2DD90A7B79DF25EC9CF60C9F3 /* Pods-alwaysawakeTests.debug.xcconfig */,
+				1F069CACC6CB9CD13C07239825980BCB /* Pods-alwaysawakeTests.release.xcconfig */,
+			);
+			name = "Pods-alwaysawakeTests";
+			path = "Target Support Files/Pods-alwaysawakeTests";
+			sourceTree = "<group>";
+		};
+		70C6BDF7A31E7973751E515FA3FE4648 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7E9C1350504A483EDE31E9E8C5B8C574 /* Info.plist */,
+				6D94A91DEE7CEEBC975A8F8D0D75C310 /* p2.OAuth2.modulemap */,
+				C61D42E7454CD1416502C277C87856BE /* p2.OAuth2.xcconfig */,
+				DA199391CDFA564DC3CCE494E0A2EA69 /* p2.OAuth2-dummy.m */,
+				9DAC0F22F9FF33CEFC282AFA8A0DBFF5 /* p2.OAuth2-prefix.pch */,
+				29A34CE7EA61CF374FB1B1974991EF07 /* p2.OAuth2-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/p2.OAuth2";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				F6A137C9D5A1FF54F5654ECDB1286A5B /* Frameworks */,
+				86491C32DAD110F6B6D74ECBBE2B103C /* Pods */,
+				96C319FCCD94B47CDE9E84F7BB00EE99 /* Products */,
+				AF5C173D6C4F76DE71DCEC5B433B0BA3 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		86491C32DAD110F6B6D74ECBBE2B103C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D5D2C9FA7C716F27478EAB3B0961B3B2 /* p2.OAuth2 */,
+				BCF1EFC8A9F0BBFDFEE0AF502D081DD2 /* SwiftKeychain */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		96C319FCCD94B47CDE9E84F7BB00EE99 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D5A94C10B6FCF4B63A2A4743AFF4C55E /* p2_OAuth2.framework */,
+				3DE1B61A800E89B2704843A561B94460 /* Pods_alwaysawake.framework */,
+				A4BBFBEE80FFE73E014270B83153063B /* Pods_alwaysawakeTests.framework */,
+				AD103B08DB7CFB1906136C9404FDAD87 /* Pods_alwaysawakeUITests.framework */,
+				07580E7ED981AE7803C3E0471A065949 /* SwiftKeychain.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF5C173D6C4F76DE71DCEC5B433B0BA3 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0117516978ED085F2C455BD9B065B462 /* Pods-alwaysawake */,
+				545BB1DD47214E57E7832569C9DC6949 /* Pods-alwaysawakeTests */,
+				AFD8D0D08013250C79D6FD712903095B /* Pods-alwaysawakeUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		AFD8D0D08013250C79D6FD712903095B /* Pods-alwaysawakeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ED93C5AF8B035EBFDFBD845E0CD57AEA /* Info.plist */,
+				AA459042A8FCD954D8E9C205CE8BAE7D /* Pods-alwaysawakeUITests.modulemap */,
+				8E983310CEE6BFA43547533846BDB495 /* Pods-alwaysawakeUITests-acknowledgements.markdown */,
+				FA7B311D8BD3ED505E002AC557FFE8FB /* Pods-alwaysawakeUITests-acknowledgements.plist */,
+				18B578CC8118E911AD224EABCBB6FD65 /* Pods-alwaysawakeUITests-dummy.m */,
+				62F0654B09EEBEA5086AF9362A63AC58 /* Pods-alwaysawakeUITests-frameworks.sh */,
+				D4B374D5D265A93F023C29494467D0D1 /* Pods-alwaysawakeUITests-resources.sh */,
+				E06467624C3EAE129B3C787E4A4999C7 /* Pods-alwaysawakeUITests-umbrella.h */,
+				9DC2BA71A2DEB09F867475CE4D114CAD /* Pods-alwaysawakeUITests.debug.xcconfig */,
+				FDE1344549D343B795573F015E316F79 /* Pods-alwaysawakeUITests.release.xcconfig */,
+			);
+			name = "Pods-alwaysawakeUITests";
+			path = "Target Support Files/Pods-alwaysawakeUITests";
+			sourceTree = "<group>";
+		};
+		BCF1EFC8A9F0BBFDFEE0AF502D081DD2 /* SwiftKeychain */ = {
+			isa = PBXGroup;
+			children = (
+				AB29D71FC61721C510C0E01733DDEB2A /* ArchiveKey.swift */,
+				540D40BE2A8B320FE655D9AEA989E800 /* GenericKey.swift */,
+				48EFF752A61463881866FDB8A54D5054 /* Keychain.swift */,
+				B60944300A4B2BC8BC2AD61D8A6F2CBA /* KeychainItem.swift */,
+				F9A64F3CB538E68CF1DFF5FC0FF4EEE3 /* KeychainQuery.swift */,
+				2F1457B03917341658EAA876EC83B757 /* KeychainService.swift */,
+				BF0448573D182D9A4C5042F16F916BFF /* Support Files */,
+			);
+			path = SwiftKeychain;
+			sourceTree = "<group>";
+		};
+		BF0448573D182D9A4C5042F16F916BFF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				773724CB94A0068940FA50A25A086C7D /* Info.plist */,
+				9B0B2DD5A6A083DC8EC9FCA47DCF1018 /* SwiftKeychain.modulemap */,
+				98BC0A5393511072FD0DA973443FA55A /* SwiftKeychain.xcconfig */,
+				B51E88BE09512DD185906C9176A93223 /* SwiftKeychain-dummy.m */,
+				9EE75BBF893C778246907B43DDEC2AA5 /* SwiftKeychain-prefix.pch */,
+				8C789F66B6F2EAE24FC398406D791C95 /* SwiftKeychain-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftKeychain";
+			sourceTree = "<group>";
+		};
+		D5D2C9FA7C716F27478EAB3B0961B3B2 /* p2.OAuth2 */ = {
+			isa = PBXGroup;
+			children = (
+				63E5550AB13068502286442DCA8EE87E /* extensions.swift */,
+				C50ADD234973815658517D8F9C7589B9 /* OAuth2.swift */,
+				10015D490E5BFB2C88A8DA02357AB9D1 /* OAuth2+iOS.swift */,
+				CC1B4900E92E055706EB678B5C770315 /* OAuth2AuthConfig.swift */,
+				A8F4AF185BB877C2344F60EF839E2915 /* OAuth2Base.swift */,
+				0C37F23839EEE341C2CC2BCFCB7E56DC /* OAuth2ClientConfig.swift */,
+				0700B8C69D6B798A67C2715F6822D96B /* OAuth2ClientCredentials.swift */,
+				BCBD719AEBDB199672EF03A228EB4BAD /* OAuth2CodeGrant.swift */,
+				B5B5ACA63B5B461ECB2A03B50420A897 /* OAuth2CodeGrantBasicAuth.swift */,
+				D5DA2808A37643C02854984AEB79E11C /* OAuth2CodeGrantFacebook.swift */,
+				EF1E8AED8FB5BF12F4F0EFB32D59037C /* OAuth2CodeGrantLinkedIn.swift */,
+				D6FC6AF5E6A88472E6CA33752BA6F31B /* OAuth2CodeGrantNoTokenType.swift */,
+				4D07E1671401A9A197B8DADF636D5400 /* OAuth2DynReg.swift */,
+				E92216E23A80E203CBAA8D7C52699179 /* OAuth2Error.swift */,
+				C64CD44799A818EDA1D655F81DFFC6FC /* OAuth2ImplicitGrant.swift */,
+				DDE6EC900349DB785543341E0979E0D0 /* OAuth2PasswordGrant.swift */,
+				3D18560A91D346F1FAEE73E7EE2C870A /* OAuth2Request.swift */,
+				DB2CF3600923EFE15E7CDA1A90BA8285 /* OAuth2WebViewController.swift */,
+				70C6BDF7A31E7973751E515FA3FE4648 /* Support Files */,
+			);
+			path = p2.OAuth2;
+			sourceTree = "<group>";
+		};
+		F68FC15F76DDC0FF1C1F8B2BF6EA684F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				557A4ED1655421D1F756E817EA4B4C44 /* Foundation.framework */,
+				5CDAC7345CAE9F6EA1FBDDBCD9260FF4 /* Security.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		F6A137C9D5A1FF54F5654ECDB1286A5B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				52BA8A207A7FD69E61B9A2CCEA7430FD /* SwiftKeychain.framework */,
+				F68FC15F76DDC0FF1C1F8B2BF6EA684F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		019F354187F38F7DCCB6273E24D665DE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E73E3E26CEFF67A22DD173DB45CA2F08 /* SwiftKeychain-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B6227B52A8AC88834048496E4FC8C5D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A48232043B4D3EF5CD6359138B4CA49F /* p2.OAuth2-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2D41EACF03A5891D797BE12DD3EF720 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				317385E63E348034CCF1D3E80EADB781 /* Pods-alwaysawakeUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC9A3DD98869F65B5A2413D12FC7B830 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C70718094E86CA9CA9349CF9BCF7692 /* Pods-alwaysawakeTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E48F2A764F5D981DD86798A1C6A82891 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E866396E66A2D3A8982331911613C8F2 /* Pods-alwaysawake-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		05167AC5F939CE0DB359C550C6F0B194 /* p2.OAuth2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEE216899AA4CDF0D5185F475FE4F1E3 /* Build configuration list for PBXNativeTarget "p2.OAuth2" */;
+			buildPhases = (
+				3D92141EBB8D2348731542A3FBD3A776 /* Sources */,
+				A0E0D5F7B8515CF48F11B925CCD5E19A /* Frameworks */,
+				9B6227B52A8AC88834048496E4FC8C5D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4F120D5E1E0F0F653214C211FA2FAC36 /* PBXTargetDependency */,
+			);
+			name = p2.OAuth2;
+			productName = p2.OAuth2;
+			productReference = D5A94C10B6FCF4B63A2A4743AFF4C55E /* p2_OAuth2.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		0D3B93401D75B2E3922A7292C9D928FF /* Pods-alwaysawake */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20B1DDB847B338CEBE99B4E7AEA1027B /* Build configuration list for PBXNativeTarget "Pods-alwaysawake" */;
+			buildPhases = (
+				65545A281CDB0224810164FF50BC7E13 /* Sources */,
+				92AB5DE5F4030B45F5A8D2481AF85EC2 /* Frameworks */,
+				E48F2A764F5D981DD86798A1C6A82891 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7FD543366ADF08A744EF3980E92066C1 /* PBXTargetDependency */,
+				93F18D20005D441EA5B647EB9F2F458D /* PBXTargetDependency */,
+			);
+			name = "Pods-alwaysawake";
+			productName = "Pods-alwaysawake";
+			productReference = 3DE1B61A800E89B2704843A561B94460 /* Pods_alwaysawake.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		842C94FC8287F0FC5E462E3422C7BE24 /* Pods-alwaysawakeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B54D9F36F762296CBBC87AF529E744D4 /* Build configuration list for PBXNativeTarget "Pods-alwaysawakeUITests" */;
+			buildPhases = (
+				2FB19A0137D7977D8E6BCA532DF61EEE /* Sources */,
+				2B406B59C9EFCA697EF99EB297C10723 /* Frameworks */,
+				B2D41EACF03A5891D797BE12DD3EF720 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-alwaysawakeUITests";
+			productName = "Pods-alwaysawakeUITests";
+			productReference = AD103B08DB7CFB1906136C9404FDAD87 /* Pods_alwaysawakeUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B51E12F2346F2C9809F856F29F7C38CA /* SwiftKeychain */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2209AEA1572A7A5E7938F17941DA934 /* Build configuration list for PBXNativeTarget "SwiftKeychain" */;
+			buildPhases = (
+				22B97C498C104EC61F0835B630B33C93 /* Sources */,
+				5348CD77717AA7AF21C0154F307F562B /* Frameworks */,
+				019F354187F38F7DCCB6273E24D665DE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftKeychain;
+			productName = SwiftKeychain;
+			productReference = 07580E7ED981AE7803C3E0471A065949 /* SwiftKeychain.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FAFF6CE130251EFD3EDE508D094B017F /* Pods-alwaysawakeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2A6956C6986877B8CA1747B4271BDF7 /* Build configuration list for PBXNativeTarget "Pods-alwaysawakeTests" */;
+			buildPhases = (
+				25FC34E40E3FE99D9B56F679EDAAF34E /* Sources */,
+				DD708EB7DA24B91DC478CDD2AF4AEB4E /* Frameworks */,
+				BC9A3DD98869F65B5A2413D12FC7B830 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-alwaysawakeTests";
+			productName = "Pods-alwaysawakeTests";
+			productReference = A4BBFBEE80FFE73E014270B83153063B /* Pods_alwaysawakeTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 96C319FCCD94B47CDE9E84F7BB00EE99 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				05167AC5F939CE0DB359C550C6F0B194 /* p2.OAuth2 */,
+				0D3B93401D75B2E3922A7292C9D928FF /* Pods-alwaysawake */,
+				FAFF6CE130251EFD3EDE508D094B017F /* Pods-alwaysawakeTests */,
+				842C94FC8287F0FC5E462E3422C7BE24 /* Pods-alwaysawakeUITests */,
+				B51E12F2346F2C9809F856F29F7C38CA /* SwiftKeychain */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22B97C498C104EC61F0835B630B33C93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FF9F0DB799EDABE760A6B556367FD13 /* ArchiveKey.swift in Sources */,
+				3C0E7EB2E18DF7817949DFF78DBCE63B /* GenericKey.swift in Sources */,
+				70867CD24047B4C7ED8A76BA6658D5CB /* Keychain.swift in Sources */,
+				F764C823E11E7D49997F141B3F4B83CA /* KeychainItem.swift in Sources */,
+				706CFD1DF87DF3F39E4F86CDF2DDA57E /* KeychainQuery.swift in Sources */,
+				0AF1CDBBD7BE02BEDC3F8C369B358938 /* KeychainService.swift in Sources */,
+				C00FD9708C50979FCB374536649F8CB0 /* SwiftKeychain-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25FC34E40E3FE99D9B56F679EDAAF34E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D936C4D1131A935BFB28B6DFD877AF8B /* Pods-alwaysawakeTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FB19A0137D7977D8E6BCA532DF61EEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11A60DCB08AB784B3FA8E76A9DC97E55 /* Pods-alwaysawakeUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D92141EBB8D2348731542A3FBD3A776 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B570508404D190889CC881D00A3FF04 /* extensions.swift in Sources */,
+				9D0179D233874E134750E457DE76F13C /* OAuth2+iOS.swift in Sources */,
+				AC8B2006588DA65828701B534CA128F3 /* OAuth2.swift in Sources */,
+				46E70DC0E74FCF9DB3FA583979AF8345 /* OAuth2AuthConfig.swift in Sources */,
+				62A0C0DB51D3B525711646CD39742F45 /* OAuth2Base.swift in Sources */,
+				772F60EDDFB4EB5DFC24EB909EB720F0 /* OAuth2ClientConfig.swift in Sources */,
+				57CF58B87BFB99EA24BC963856AF6514 /* OAuth2ClientCredentials.swift in Sources */,
+				4DF8CBEE84DC7A609D674409F34AFB7E /* OAuth2CodeGrant.swift in Sources */,
+				C7D2EB9FCEE143E9FEFD4B6FA768EF5C /* OAuth2CodeGrantBasicAuth.swift in Sources */,
+				9499F80AD27E872761C14EEA954AF7D1 /* OAuth2CodeGrantFacebook.swift in Sources */,
+				1EEBCD08D342FA6EA12C41498D2E138F /* OAuth2CodeGrantLinkedIn.swift in Sources */,
+				B803CDA99ADCD14BAC6477716653565A /* OAuth2CodeGrantNoTokenType.swift in Sources */,
+				31DE090E0343616CCBEE3EDDA0A126FF /* OAuth2DynReg.swift in Sources */,
+				666B12C184D4F87B77A8B191293208EE /* OAuth2Error.swift in Sources */,
+				4EDC6DAAB18E3C9B49CF83B3E079BA6E /* OAuth2ImplicitGrant.swift in Sources */,
+				39BC634F0BC0FA834AB10B5775FEC82B /* OAuth2PasswordGrant.swift in Sources */,
+				825A45D3C1A0262BCBD433A96AF911B4 /* OAuth2Request.swift in Sources */,
+				E67399A59BCA2D5B1F5365D59937E2C7 /* OAuth2WebViewController.swift in Sources */,
+				843D031E36D9E610115CD174CFC52FCC /* p2.OAuth2-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65545A281CDB0224810164FF50BC7E13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4128997C02846D7D1CBCCB41ABA9FB8 /* Pods-alwaysawake-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4F120D5E1E0F0F653214C211FA2FAC36 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftKeychain;
+			target = B51E12F2346F2C9809F856F29F7C38CA /* SwiftKeychain */;
+			targetProxy = F21A6D1B72D9D6891F206A6F7C28036B /* PBXContainerItemProxy */;
+		};
+		7FD543366ADF08A744EF3980E92066C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftKeychain;
+			target = B51E12F2346F2C9809F856F29F7C38CA /* SwiftKeychain */;
+			targetProxy = 6D8D5BC501483E307EF31331ABB0F664 /* PBXContainerItemProxy */;
+		};
+		93F18D20005D441EA5B647EB9F2F458D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = p2.OAuth2;
+			target = 05167AC5F939CE0DB359C550C6F0B194 /* p2.OAuth2 */;
+			targetProxy = 003C08D0B2244169A0BAD1D67DCC5277 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0DEB509DB7AE6E3C1C82E8913D192E6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDE1344549D343B795573F015E316F79 /* Pods-alwaysawakeUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-alwaysawakeUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-alwaysawakeUITests/Pods-alwaysawakeUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_alwaysawakeUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3F2791CF58CF9C19A4F32058929C32D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C61D42E7454CD1416502C277C87856BE /* p2.OAuth2.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/p2.OAuth2/p2.OAuth2-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/p2.OAuth2/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/p2.OAuth2/p2.OAuth2.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = p2_OAuth2;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4459177FBC4F28BC1276768BF8A23749 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98BC0A5393511072FD0DA973443FA55A /* SwiftKeychain.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftKeychain/SwiftKeychain-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftKeychain/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftKeychain/SwiftKeychain.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SwiftKeychain;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		70ED7BA863FEDDFCA6088A0E04B5409E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84DEF1977FECC9101C88B37288EEFE4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DC2BA71A2DEB09F867475CE4D114CAD /* Pods-alwaysawakeUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-alwaysawakeUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-alwaysawakeUITests/Pods-alwaysawakeUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_alwaysawakeUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		981F01DEA9D293BB726DC1A6F6A0907A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F069CACC6CB9CD13C07239825980BCB /* Pods-alwaysawakeTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-alwaysawakeTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-alwaysawakeTests/Pods-alwaysawakeTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_alwaysawakeTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BF88437C737DED5D5699B21D6A14BC3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A000D9434F18E29875FA5990153ABC42 /* Pods-alwaysawake.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-alwaysawake/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-alwaysawake/Pods-alwaysawake.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_alwaysawake;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C8F32C922BDD8B6884504A23ADA9B9C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C61D42E7454CD1416502C277C87856BE /* p2.OAuth2.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/p2.OAuth2/p2.OAuth2-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/p2.OAuth2/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/p2.OAuth2/p2.OAuth2.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = p2_OAuth2;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D51F16C600A365A5501778A59E150F90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98BC0A5393511072FD0DA973443FA55A /* SwiftKeychain.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftKeychain/SwiftKeychain-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftKeychain/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftKeychain/SwiftKeychain.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SwiftKeychain;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D5BB87D680ED98F949C5402CBACF9599 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47E32583881A088ACA4A83C617ABE98B /* Pods-alwaysawake.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-alwaysawake/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-alwaysawake/Pods-alwaysawake.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_alwaysawake;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E1B685D9073CDF53C548503CD4FD8B53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		EA121EE54E87EF77AF708DE3B50B7E5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42AD88E2DD90A7B79DF25EC9CF60C9F3 /* Pods-alwaysawakeTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-alwaysawakeTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-alwaysawakeTests/Pods-alwaysawakeTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_alwaysawakeTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		20B1DDB847B338CEBE99B4E7AEA1027B /* Build configuration list for PBXNativeTarget "Pods-alwaysawake" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF88437C737DED5D5699B21D6A14BC3B /* Debug */,
+				D5BB87D680ED98F949C5402CBACF9599 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1B685D9073CDF53C548503CD4FD8B53 /* Debug */,
+				70ED7BA863FEDDFCA6088A0E04B5409E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2A6956C6986877B8CA1747B4271BDF7 /* Build configuration list for PBXNativeTarget "Pods-alwaysawakeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA121EE54E87EF77AF708DE3B50B7E5A /* Debug */,
+				981F01DEA9D293BB726DC1A6F6A0907A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B54D9F36F762296CBBC87AF529E744D4 /* Build configuration list for PBXNativeTarget "Pods-alwaysawakeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84DEF1977FECC9101C88B37288EEFE4F /* Debug */,
+				0DEB509DB7AE6E3C1C82E8913D192E6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEE216899AA4CDF0D5185F475FE4F1E3 /* Build configuration list for PBXNativeTarget "p2.OAuth2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F2791CF58CF9C19A4F32058929C32D5 /* Debug */,
+				C8F32C922BDD8B6884504A23ADA9B9C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2209AEA1572A7A5E7938F17941DA934 /* Build configuration list for PBXNativeTarget "SwiftKeychain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D51F16C600A365A5501778A59E150F90 /* Debug */,
+				4459177FBC4F28BC1276768BF8A23749 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

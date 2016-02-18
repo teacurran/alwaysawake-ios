@@ -19,6 +19,9 @@
 		1C010DB18FF16EC3C3E116EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C0107A4F9AF600DE77F0581 /* LaunchScreen.storyboard */; };
 		1C010DC075D2F8620BEDC004 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1C010BA11BF164726C07A874 /* Info.plist */; };
 		1C010F5F468339B79879965B /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0107007CFCBB036128D1E0 /* FirstViewController.swift */; };
+		9DBBFD0E037FD9E34E9896A6 /* Pods_alwaysawake.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12767A9F9EFC7A17B678D4A3 /* Pods_alwaysawake.framework */; };
+		D5AAA60C39D434941CCC647B /* Pods_alwaysawakeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5767628F15F55E5112DEBC90 /* Pods_alwaysawakeUITests.framework */; };
+		F8648C9F8523796E1AC337A7 /* Pods_alwaysawakeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33339253E3880F659336F8EB /* Pods_alwaysawakeTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		12767A9F9EFC7A17B678D4A3 /* Pods_alwaysawake.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_alwaysawake.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C0100D96B0520FA4FA6D4DE /* alwaysawakeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = alwaysawakeTests.swift; sourceTree = "<group>"; };
 		1C0103F41FC7BDD6FC4FFC77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1C01047E148B40075E3E9E85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
@@ -54,6 +58,14 @@
 		1C010BA11BF164726C07A874 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
 		1C010F4454E2F50D5E61F01B /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		1C010F9EFF8FC6BE59CAA321 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		33339253E3880F659336F8EB /* Pods_alwaysawakeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_alwaysawakeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5767628F15F55E5112DEBC90 /* Pods_alwaysawakeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_alwaysawakeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C51AA4C91EC38E8AD26E290 /* Pods-alwaysawakeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-alwaysawakeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-alwaysawakeTests/Pods-alwaysawakeTests.release.xcconfig"; sourceTree = "<group>"; };
+		6E736DF5A48B2BE2C3D24676 /* Pods-alwaysawake.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-alwaysawake.release.xcconfig"; path = "Pods/Target Support Files/Pods-alwaysawake/Pods-alwaysawake.release.xcconfig"; sourceTree = "<group>"; };
+		9C86C52B6B5B27EA13DD1DF2 /* Pods-alwaysawakeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-alwaysawakeUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-alwaysawakeUITests/Pods-alwaysawakeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9F0138C0DA1FB36E4B5D86EF /* Pods-alwaysawakeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-alwaysawakeUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-alwaysawakeUITests/Pods-alwaysawakeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A096A8CE9B26CFDEDDD9BF92 /* Pods-alwaysawake.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-alwaysawake.debug.xcconfig"; path = "Pods/Target Support Files/Pods-alwaysawake/Pods-alwaysawake.debug.xcconfig"; sourceTree = "<group>"; };
+		A2EDD56B36DC09F34E4EA443 /* Pods-alwaysawakeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-alwaysawakeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-alwaysawakeTests/Pods-alwaysawakeTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8648C9F8523796E1AC337A7 /* Pods_alwaysawakeTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DBBFD0E037FD9E34E9896A6 /* Pods_alwaysawake.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5AAA60C39D434941CCC647B /* Pods_alwaysawakeUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +103,8 @@
 				1C010F7E4852A383B25D69EE /* alwaysawake */,
 				1C010B6866CB51F04E099435 /* alwaysawakeTests */,
 				1C010C81EB2663C99B464A94 /* alwaysawakeUITests */,
+				C81FC5942246D62155D2B0E4 /* Pods */,
+				345423E3164B25CD693C8CFC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -134,6 +151,29 @@
 			path = alwaysawake;
 			sourceTree = "<group>";
 		};
+		345423E3164B25CD693C8CFC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				12767A9F9EFC7A17B678D4A3 /* Pods_alwaysawake.framework */,
+				33339253E3880F659336F8EB /* Pods_alwaysawakeTests.framework */,
+				5767628F15F55E5112DEBC90 /* Pods_alwaysawakeUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C81FC5942246D62155D2B0E4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A096A8CE9B26CFDEDDD9BF92 /* Pods-alwaysawake.debug.xcconfig */,
+				6E736DF5A48B2BE2C3D24676 /* Pods-alwaysawake.release.xcconfig */,
+				A2EDD56B36DC09F34E4EA443 /* Pods-alwaysawakeTests.debug.xcconfig */,
+				6C51AA4C91EC38E8AD26E290 /* Pods-alwaysawakeTests.release.xcconfig */,
+				9F0138C0DA1FB36E4B5D86EF /* Pods-alwaysawakeUITests.debug.xcconfig */,
+				9C86C52B6B5B27EA13DD1DF2 /* Pods-alwaysawakeUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -141,9 +181,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1C010A8F0404D394311BF2C9 /* Build configuration list for PBXNativeTarget "alwaysawakeTests" */;
 			buildPhases = (
+				0CC94E6C256053D7F22A79E2 /* Check Pods Manifest.lock */,
 				1C010913D0727445E2AF1A74 /* Sources */,
 				1C010016E4E9224325F6DAF1 /* Frameworks */,
 				1C010A4EB1763B9E86A29855 /* Resources */,
+				6449B8B96A608ADDA82E9660 /* Embed Pods Frameworks */,
+				DFB1CFF0D0ED91A06546E8D6 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -159,9 +202,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1C0105EEDA42817E6C052FB7 /* Build configuration list for PBXNativeTarget "alwaysawake" */;
 			buildPhases = (
+				7915F365063E206DEDBA7A70 /* Check Pods Manifest.lock */,
 				1C0106538C1C2A7417A91879 /* Sources */,
 				1C0106E8148F6DD45C1B7487 /* Frameworks */,
 				1C010CE64DEA49CE70B65AB8 /* Resources */,
+				FB3DECBF36A8D5700738256F /* Embed Pods Frameworks */,
+				248228E894AE555EC2E041F2 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -176,9 +222,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1C01008DBB35706B071200EE /* Build configuration list for PBXNativeTarget "alwaysawakeUITests" */;
 			buildPhases = (
+				917B8B7D6FB7427CEE754406 /* Check Pods Manifest.lock */,
 				1C010A7FB7EF5FCEE56B1AD5 /* Sources */,
 				1C0109B354439332EAD89AEC /* Frameworks */,
 				1C010B7B59D534EC41B97FF9 /* Resources */,
+				2CDFBD0443270E59F573129E /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -198,6 +246,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0720;
 				ORGANIZATIONNAME = "Approaching Pi";
+				TargetAttributes = {
+					1C0105B2EEA0522ED7080656 = {
+						DevelopmentTeam = 5K6G2H27FE;
+					};
+				};
 			};
 			buildConfigurationList = 1C010010E0142A99CB53B8E1 /* Build configuration list for PBXProject "alwaysawake" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -247,6 +300,129 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0CC94E6C256053D7F22A79E2 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		248228E894AE555EC2E041F2 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-alwaysawake/Pods-alwaysawake-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2CDFBD0443270E59F573129E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-alwaysawakeUITests/Pods-alwaysawakeUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6449B8B96A608ADDA82E9660 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-alwaysawakeTests/Pods-alwaysawakeTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7915F365063E206DEDBA7A70 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		917B8B7D6FB7427CEE754406 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DFB1CFF0D0ED91A06546E8D6 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-alwaysawakeTests/Pods-alwaysawakeTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB3DECBF36A8D5700738256F /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-alwaysawake/Pods-alwaysawake-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1C0106538C1C2A7417A91879 /* Sources */ = {
@@ -313,6 +489,7 @@
 /* Begin XCBuildConfiguration section */
 		1C0101A625CF00C99C313C9C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C51AA4C91EC38E8AD26E290 /* Pods-alwaysawakeTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/alwaysawake.app/alwaysawake";
 				INFOPLIST_FILE = alwaysawakeTests/Info.plist;
@@ -363,28 +540,37 @@
 		};
 		1C0103CBFC6703FCA527BBD1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E736DF5A48B2BE2C3D24676 /* Pods-alwaysawake.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = alwaysawake/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.approachingpi.alwaysawake;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
 		1C010472712A9D67334717CE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A096A8CE9B26CFDEDDD9BF92 /* Pods-alwaysawake.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = alwaysawake/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.approachingpi.alwaysawake;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
 		1C010716674307B391C58570 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C86C52B6B5B27EA13DD1DF2 /* Pods-alwaysawakeUITests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/alwaysawake.app/alwaysawake";
 				INFOPLIST_FILE = alwaysawakeUITests/Info.plist;
@@ -442,6 +628,7 @@
 		};
 		1C01096BFC88EB089BDC4386 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2EDD56B36DC09F34E4EA443 /* Pods-alwaysawakeTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/alwaysawake.app/alwaysawake";
 				INFOPLIST_FILE = alwaysawakeTests/Info.plist;
@@ -454,6 +641,7 @@
 		};
 		1C010C381DBFA176DBE4A60E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F0138C0DA1FB36E4B5D86EF /* Pods-alwaysawakeUITests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/alwaysawake.app/alwaysawake";
 				INFOPLIST_FILE = alwaysawakeUITests/Info.plist;
