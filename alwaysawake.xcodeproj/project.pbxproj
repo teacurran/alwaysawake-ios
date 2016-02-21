@@ -19,7 +19,7 @@
 		1C010DB18FF16EC3C3E116EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C0107A4F9AF600DE77F0581 /* LaunchScreen.storyboard */; };
 		1C010DC075D2F8620BEDC004 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1C010BA11BF164726C07A874 /* Info.plist */; };
 		1C010F5F468339B79879965B /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0107007CFCBB036128D1E0 /* FirstViewController.swift */; };
-		9DBBFD0E037FD9E34E9896A6 /* Pods_alwaysawake.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12767A9F9EFC7A17B678D4A3 /* Pods_alwaysawake.framework */; };
+		CF0E8C035297B603C5D344BD /* Pods_alwaysawake.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12767A9F9EFC7A17B678D4A3 /* Pods_alwaysawake.framework */; };
 		D5AAA60C39D434941CCC647B /* Pods_alwaysawakeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5767628F15F55E5112DEBC90 /* Pods_alwaysawakeUITests.framework */; };
 		F8648C9F8523796E1AC337A7 /* Pods_alwaysawakeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33339253E3880F659336F8EB /* Pods_alwaysawakeTests.framework */; };
 /* End PBXBuildFile section */
@@ -38,6 +38,41 @@
 			proxyType = 1;
 			remoteGlobalIDString = 1C0105B2EEA0522ED7080656;
 			remoteInfo = alwaysawake;
+		};
+		93FE552F1C794D69003AA622 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93FE55271C794D69003AA622 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D5A94C10B6FCF4B63A2A4743AFF4C55E;
+			remoteInfo = p2.OAuth2;
+		};
+		93FE55311C794D69003AA622 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93FE55271C794D69003AA622 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3DE1B61A800E89B2704843A561B94460;
+			remoteInfo = "Pods-alwaysawake";
+		};
+		93FE55331C794D69003AA622 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93FE55271C794D69003AA622 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A4BBFBEE80FFE73E014270B83153063B;
+			remoteInfo = "Pods-alwaysawakeTests";
+		};
+		93FE55351C794D69003AA622 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93FE55271C794D69003AA622 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AD103B08DB7CFB1906136C9404FDAD87;
+			remoteInfo = "Pods-alwaysawakeUITests";
+		};
+		93FE55371C794D69003AA622 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93FE55271C794D69003AA622 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 07580E7ED981AE7803C3E0471A065949;
+			remoteInfo = SwiftKeychain;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -62,6 +97,7 @@
 		5767628F15F55E5112DEBC90 /* Pods_alwaysawakeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_alwaysawakeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C51AA4C91EC38E8AD26E290 /* Pods-alwaysawakeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-alwaysawakeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-alwaysawakeTests/Pods-alwaysawakeTests.release.xcconfig"; sourceTree = "<group>"; };
 		6E736DF5A48B2BE2C3D24676 /* Pods-alwaysawake.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-alwaysawake.release.xcconfig"; path = "Pods/Target Support Files/Pods-alwaysawake/Pods-alwaysawake.release.xcconfig"; sourceTree = "<group>"; };
+		93FE55271C794D69003AA622 /* Pods.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Pods.xcodeproj; path = Pods/Pods.xcodeproj; sourceTree = "<group>"; };
 		9C86C52B6B5B27EA13DD1DF2 /* Pods-alwaysawakeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-alwaysawakeUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-alwaysawakeUITests/Pods-alwaysawakeUITests.release.xcconfig"; sourceTree = "<group>"; };
 		9F0138C0DA1FB36E4B5D86EF /* Pods-alwaysawakeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-alwaysawakeUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-alwaysawakeUITests/Pods-alwaysawakeUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		A096A8CE9B26CFDEDDD9BF92 /* Pods-alwaysawake.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-alwaysawake.debug.xcconfig"; path = "Pods/Target Support Files/Pods-alwaysawake/Pods-alwaysawake.debug.xcconfig"; sourceTree = "<group>"; };
@@ -81,7 +117,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9DBBFD0E037FD9E34E9896A6 /* Pods_alwaysawake.framework in Frameworks */,
+				CF0E8C035297B603C5D344BD /* Pods_alwaysawake.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -154,11 +190,24 @@
 		345423E3164B25CD693C8CFC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				93FE55271C794D69003AA622 /* Pods.xcodeproj */,
 				12767A9F9EFC7A17B678D4A3 /* Pods_alwaysawake.framework */,
 				33339253E3880F659336F8EB /* Pods_alwaysawakeTests.framework */,
 				5767628F15F55E5112DEBC90 /* Pods_alwaysawakeUITests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		93FE55281C794D69003AA622 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				93FE55301C794D69003AA622 /* p2_OAuth2.framework */,
+				93FE55321C794D69003AA622 /* Pods_alwaysawake.framework */,
+				93FE55341C794D69003AA622 /* Pods_alwaysawakeTests.framework */,
+				93FE55361C794D69003AA622 /* Pods_alwaysawakeUITests.framework */,
+				93FE55381C794D69003AA622 /* SwiftKeychain.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		C81FC5942246D62155D2B0E4 /* Pods */ = {
@@ -262,6 +311,12 @@
 			mainGroup = 1C01015FC17BAD279C52A28F;
 			productRefGroup = 1C0104AE924318754C7AF923 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 93FE55281C794D69003AA622 /* Products */;
+					ProjectRef = 93FE55271C794D69003AA622 /* Pods.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				1C0105B2EEA0522ED7080656 /* alwaysawake */,
@@ -270,6 +325,44 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		93FE55301C794D69003AA622 /* p2_OAuth2.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = p2_OAuth2.framework;
+			remoteRef = 93FE552F1C794D69003AA622 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		93FE55321C794D69003AA622 /* Pods_alwaysawake.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Pods_alwaysawake.framework;
+			remoteRef = 93FE55311C794D69003AA622 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		93FE55341C794D69003AA622 /* Pods_alwaysawakeTests.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Pods_alwaysawakeTests.framework;
+			remoteRef = 93FE55331C794D69003AA622 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		93FE55361C794D69003AA622 /* Pods_alwaysawakeUITests.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Pods_alwaysawakeUITests.framework;
+			remoteRef = 93FE55351C794D69003AA622 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		93FE55381C794D69003AA622 /* SwiftKeychain.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwiftKeychain.framework;
+			remoteRef = 93FE55371C794D69003AA622 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		1C010A4EB1763B9E86A29855 /* Resources */ = {
