@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--First-->
@@ -97,20 +98,53 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sas-rq-aku">
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sas-rq-aku">
                                 <rect key="frame" x="220" y="539" width="160" height="30"/>
                                 <color key="backgroundColor" red="0.73363981138051348" green="0.81177706864433596" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="160" id="IbA-3O-wmf"/>
+                                </constraints>
                                 <inset key="contentEdgeInsets" minX="10" minY="10" maxX="10" maxY="10"/>
                                 <size key="titleShadowOffset" width="2.2250738585072014e-308" height="2.2250738585072014e-308"/>
                                 <state key="normal" title="Login With Google">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                             </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dRc-qT-ReE">
+                                <rect key="frame" x="133" y="245" width="447" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Email" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s8r-UN-9bc">
+                                <rect key="frame" x="20" y="245" width="41" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Password" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A0F-rW-3nS">
+                                <rect key="frame" x="20" y="315" width="74" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="LH3-RQ-BVQ">
+                                <rect key="frame" x="133" y="315" width="447" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q6J-Fh-GN3">
+                                <rect key="frame" x="133" y="372" width="38" height="30"/>
+                                <state key="normal" title="Login"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="Sas-rq-aku" firstAttribute="centerY" secondItem="BnC-hM-R8z" secondAttribute="centerY" id="IAI-gI-QVb"/>
-                            <constraint firstItem="Sas-rq-aku" firstAttribute="centerX" secondItem="BnC-hM-R8z" secondAttribute="centerX" id="QQs-Mw-KDk"/>
+                            <constraint firstItem="dRc-qT-ReE" firstAttribute="leading" secondItem="BnC-hM-R8z" secondAttribute="leadingMargin" constant="113" id="0lB-of-eti"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="dRc-qT-ReE" secondAttribute="trailing" id="1HU-aY-D5j"/>
+                            <constraint firstItem="LH3-RQ-BVQ" firstAttribute="leading" secondItem="BnC-hM-R8z" secondAttribute="leadingMargin" constant="113" id="EZ0-Kz-FCc"/>
+                            <constraint firstItem="FzN-xv-BPT" firstAttribute="top" secondItem="Sas-rq-aku" secondAttribute="bottom" constant="30" id="Ebh-Y0-dOt"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="LH3-RQ-BVQ" secondAttribute="trailing" id="UnO-9t-czw"/>
+                            <constraint firstItem="Sas-rq-aku" firstAttribute="top" secondItem="hhH-06-uJg" secondAttribute="bottom" constant="519" id="Y01-dc-OfF"/>
                         </constraints>
                     </view>
                 </viewController>
