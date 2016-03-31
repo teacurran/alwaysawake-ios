@@ -1,6 +1,0 @@
-framework module Pods_alwaysawakeUITests {
-  umbrella header "Pods-alwaysawakeUITests-umbrella.h"
-
-  export *
-  module * { export * }
-}
