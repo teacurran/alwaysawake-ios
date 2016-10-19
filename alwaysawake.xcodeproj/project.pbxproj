@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 47;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -296,13 +296,20 @@
 				LastSwiftUpdateCheck = 0720;
 				ORGANIZATIONNAME = "Approaching Pi";
 				TargetAttributes = {
+					1C01031A188BF37A9D58A094 = {
+						LastSwiftMigration = 0800;
+					};
 					1C0105B2EEA0522ED7080656 = {
 						DevelopmentTeam = 5K6G2H27FE;
+						LastSwiftMigration = 0800;
+					};
+					1C010B2323AB1704E823A2D8 = {
+						LastSwiftMigration = 0800;
 					};
 				};
 			};
 			buildConfigurationList = 1C010010E0142A99CB53B8E1 /* Build configuration list for PBXProject "alwaysawake" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 6.3";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -589,7 +596,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.approachingpi.alwaysawakeTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -643,6 +650,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.approachingpi.alwaysawake;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -658,6 +666,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.approachingpi.alwaysawake;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -670,7 +679,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.approachingpi.alwaysawakeUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -728,7 +737,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.approachingpi.alwaysawakeTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -741,7 +750,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.approachingpi.alwaysawakeUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
