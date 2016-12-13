@@ -1,15 +1,15 @@
 PODS:
-  - p2.OAuth2 (2.2.1):
-    - SwiftKeychain (~> 0.1.5)
-  - SwiftKeychain (0.1.5)
+  - p2.OAuth2 (2.2.9):
+    - SwiftKeychain (~> 1.0)
+  - SwiftKeychain (1.0.0)
 
 DEPENDENCIES:
   - p2.OAuth2 (~> 2.2.1)
 
 SPEC CHECKSUMS:
-  p2.OAuth2: 7f5c44259ef83ea5b9ef8f9049310611788f86cb
-  SwiftKeychain: 1387edad8b56c659daa93d9ffc99526bac5b0088
+  p2.OAuth2: 2eaf525644bdf0d458ab59c4c1c9f0697132a3af
+  SwiftKeychain: fd9ad69f7b3ff7a0c7ba579da508bbaa89a395b2
 
 PODFILE CHECKSUM: 75d7312c0f3cf3d8dc07fa781ae9f6e550b0f650
 
-COCOAPODS: 1.0.0.beta.3
+COCOAPODS: 1.1.1
